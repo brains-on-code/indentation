@@ -3,7 +3,11 @@
 This repository contains the data we collected during our experiment examining the effect of indentation on program comprehension and visual effort.
 
 ### Paper Abstract
-Based on the positive findings of a study by [Miara and  others],  we  reexamine  the  effect  of  code  indentation on  program  comprehension.  Our  aim  is  to  provide  empirical evidence  for  the  suggested  level  of  indentation  made  by  many style  guides.  Following  Miara  and  others,  we  also  included  the perceived difficulty, and we extended the original design to gain additional  insights  into  the  influence  of  indentation  on  visual effort by employing an eye-tracker. In the course of our study, we asked 22 participants to calculate the output of Java code snippets with different levels of indentation, while we recorded their gaze behavior. We could not find any indication that the indentation levels affect program comprehension or visual effort, so we could not replicate the findings of Miara and others. Nevertheless, our modernization of the original experiment design are a promising starting point for future studies in this field.
+An early study showed that indentation is not a matter of style, but provides actual support for program comprehension. In this paper, we present a non-exact replication of this study.
+Our aim is to provide empirical evidence for the suggested level of indentation made by many style guides. 
+Following [Miara and others](https://www.cs.umd.edu/~ben/papers/Miara1983Program.pdf), we also included the perceived difficulty, and we extended the original design to gain additional insights into the influence of indentation on visual effort by employing an eye-tracker. 
+In the course of our study, we asked 22~participants to calculate the output of Java code snippets with different levels of indentation, while we recorded their gaze behavior. 
+We could not find any indication that the indentation levels affect program comprehension or visual effort, so we could not replicate the findings of Miara and others. Nevertheless, our modernization of the original experiment design are a promising starting point for future studies in this field.
 
 ## Descprition of Data
 The data is splitted into the set of 22 participants that saw a randomized order of indentation and program snippet and the set which additionally contains those 17 participants that saw the same order. For our paper, we only included the set 22 'random' trials into our analysis.
